@@ -42,8 +42,6 @@ return ( <div className={p-6 ${darkMode ? "bg-gray-900 text-white" : "bg-white t
   <div className="mt-6">
     <h2 className="text-xl font-bold mb-2">Fayl yuklash</h2>
     <FileUpload onUpload={(files) => setUploadedFiles([...uploadedFiles, ...files])} allowedTypes={["image", "video"]} />
-
-Asadbek, [30.03.2025 22:21]
 <div className="mt-4">
       {uploadedFiles.map((file, index) => (
         <div key={index} className="flex items-center gap-4 mb-2">
